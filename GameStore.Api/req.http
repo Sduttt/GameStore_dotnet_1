@@ -1,0 +1,34 @@
+GET http://localhost:5174/games
+
+###
+GET http://localhost:5174/games/5
+
+###
+POST http://localhost:5174/games
+Content-Type: application/json;
+
+{
+    "Name": "Asphalt 8",
+    "genreId": 2,
+    "Price": 199.9,
+    "ReleaseDate": "2014-01-01"
+}
+
+###
+PUT http://localhost:5174/games/1
+Content-Type: application/json;
+
+{
+    "Name": "Candy Crush",
+    "GenreId": 1,
+    "Price": 19.9,
+    "ReleaseDate": "2018-01-01"
+}
+
+###
+DELETE http://localhost:5174/games/3
+
+
+
+###
+GET http://localhost:5174/genres

@@ -1,0 +1,13 @@
+bin/
+obj/
+*.db-shm
+*.db-wal
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
+*.runtimeconfig.json
+*.deps.json
+appsettings.Development.json
+GameStore.db
